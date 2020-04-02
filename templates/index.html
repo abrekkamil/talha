@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+
+{% block body%}
+    <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+      <li data-target="#carousel-example-2" data-slide-to="3"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(14).jpg"
+            alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Fidanlar</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(26).jpg"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Tohumlar</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Aşılar</h3>
+          <p>Third text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(95).jpg"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Ve çok daha fazlası..</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+  <!--/.Carousel Wrapper-->
+    
+
+<hr>
+
+    <div class="card-deck">
+        
+        <div class="card">
+            <div class="card-body">
+                <div class = "jumbotron text-center">
+                    <h5 class="card-title">Fidanlar</h5>
+                    <p class="card-text">Pek çok farklı türde fidanlarımız mevcut.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="card">
+            <div class="card-body">
+                <div class = "jumbotron text-center">
+                    <h5 class="card-title">Tohumlar</h5>
+                    <p class="card-text">Kendi ellerimizle ürettiğimiz tamamen doğal tohumlarımız</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="card">
+            <div class="card-body">
+                <div class = "jumbotron text-center">
+                    <h5 class="card-title">Aşılar</h5>
+                    <p class="card-text">Her türlü ağaca uygun amaca hizmet eden aşılarımız</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+ <hr>
+
+<h4 align="center">Ürünlerimiz</h4>
+
+ <br>
+<div class="row" id="ads">
+    <!-- Category Card -->
+    <div class="col-md-4">
+        <div class="card rounded">
+            <div class="card-image">
+                <img class="img-fluid" src="https://img-epttavm.mncdn.com/pimages/592/056/294/5bddab09ee5f1.jpg?v=201910111500" alt="Alternate Text" />
+            </div>
+            <div class="card-image-overlay m-auto">
+                <span class="card-detail-badge">18.60 TL</span>
+            </div>
+            <div class="card-body text-center">
+                    <h5>Tekirdağ İlkeren Üzüm Fidanı</h5>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card rounded">
+            <div class="card-image">
+                <img class="center" src="/static/antep-karasi-uzum-fidani-tuplu.jpg" alt="Alternate Text"  width="350" height="342"/>
+            </div>
+            <div class="card-image-overlay m-auto">
+                <span class="card-detail-badge">37.98 TL</span>
+            </div>
+            <div class="card-body text-center">
+                    <h5>Antep Karası Siyah Üzüm Fidanı</h5>   
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card rounded">
+            <div class="card-image">
+                <img class="img-fluid" src="/static/beyaz_uzum.jpg" alt="Alternate Text" width="350" height="342"/>
+            </div>
+            <div class="card-image-overlay m-auto">
+                <span class="card-detail-badge">37.98 TL</span>
+            </div>
+            <div class="card-body text-center">
+                    <h5>Beyaz Üzüm Fidanı Tüplü</h5>
+                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+ 
+
+{% endblock%}
